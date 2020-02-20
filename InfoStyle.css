@@ -1,0 +1,51 @@
+body {
+	background-color: LightSalmon;
+}
+
+h1 {
+	color: black;
+	font: georgia;
+}
+
+h2 {
+	color: black;
+	font-family: Arial;
+	font-size: 15px;
+}
+
+input[type=text] {
+	width: 25%;
+	padding: 10px 10px;
+	margin: 8px;
+	font-family: Arial;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+input[type=email] {
+	width: 25%;
+	padding: 10px 10px;
+	margin: 8px;
+	font-family: Arial;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+input[type=text]:focus {
+  border: 2px solid gray;
+}
+
+input[type=email]:focus {
+  border: 2px solid gray;
+}
+
+input[type=submit] {
+	width: 25%;
+	padding: 10px 10px;
+	margin: 8px;
+	font-family: Arial;
+	border: 1px solid black;
+	border-radius: 4px;
+	background-color: green;
+	color: white;
+}
